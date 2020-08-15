@@ -87,18 +87,18 @@
   left: 8px;
 }
 
-.a {
+a {
   text-decoration: none !important;
 }
 
 .underline {
-  width: 20%;
+  width: 8rem;
   height: 5px;
-  margin: 0 auto;
-  background-color: green;
+  margin: 0;
+  background-color: black;
 }
-.text-green {
-  color: #64bc62;
+.text-gray {
+  color: rgb(165, 165, 165) !important;
 }
 
 .bg-green {
@@ -109,12 +109,8 @@
     url("../assets/homeHeader.png") center/cover no-repeat;
 }
 
-/* @media screen and (max-width: 320px) {
-  #header {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-      url("../assets/homeHeader.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: -.5%;
+@media screen and (max-width: 320px) {
+  .underline {
+    margin: 0 auto;
   }
-} */
+}
