@@ -94,23 +94,13 @@ a {
 .underline {
   width: 8rem;
   height: 5px;
-  margin: 0;
   background-color: black;
 }
 .text-gray {
   color: rgb(165, 165, 165) !important;
 }
 
-.bg-green {
-  background-color: #64bc62;
-}
 #header {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
     url("../assets/homeHeader.png") center/cover no-repeat;
-}
-
-@media screen and (max-width: 330px) {
-  .underline {
-    margin: 0 auto;
-  }
 }
