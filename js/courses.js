@@ -88,7 +88,6 @@ courses.addEventListener("click", async (event) => {
     });
   }
   displayQuestions(questions, theEvent);
-  console.log(questions[i]);
 });
 
 quiz_ui.addEventListener("click", (event) => {
@@ -96,16 +95,9 @@ quiz_ui.addEventListener("click", (event) => {
     if (event.target.innerText === String(questions[i].correct_answer)) {
       score++;
       i++;
-      console.log(
-        i,
-        score,
-        event.target.innerHTML,
-        event.target.parentElement.id
-      );
       nextQuestion(i);
     } else {
       i++;
-      console.log(i, score);
       nextQuestion(i);
     }
   }
@@ -116,7 +108,6 @@ const nextQuestion = (i) => {
     displayQuestions(questions, theEvent);
   } else {
     displayResult(score);
-    console.log("Done");
   }
 };
 
