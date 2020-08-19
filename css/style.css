@@ -90,7 +90,12 @@
 a {
   text-decoration: none !important;
 }
-
+.links a {
+  color: white;
+}
+.links p {
+  color: #64bc62;
+}
 .underline {
   width: 8rem;
   height: 5px;
@@ -103,4 +108,8 @@ a {
 #header {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
     url("../assets/homeHeader.png") center/cover no-repeat;
+}
+
+.pointer {
+  cursor: pointer;
 }
